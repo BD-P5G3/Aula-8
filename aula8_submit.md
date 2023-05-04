@@ -61,5 +61,10 @@ CREATE TABLE mytemp (
 ## ​8.3.
 
 ```
-... Write here your answer ...
+1. CREATE CLUSTERED INDEX IdxEmployeeSsn ON EMPLOYEE(Ssn)
+2. CREATE INDEX IdxEmployeeName ON EMPLOYEE(Fname, Lname)
+3. CREATE CLUSTERED INDEX IdxEmployeeDepartment ON EMPLOYEE(Dno)
+4. CREATE INDEX IdxProjectEmployees ON WORKS_ON(Pnumber)
+5. CREATE INDEX IdxEmployeeDependents ON DEPENDENT(Essn)
+6. CREATE CLUSTERED INDEX IdxDepartmentProjects ON PROJECT(Dnum)
 ```
