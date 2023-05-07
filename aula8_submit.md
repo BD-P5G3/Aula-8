@@ -37,25 +37,32 @@ CREATE TABLE mytemp (
 ### b)
 
 ```
-58160 milisegundos.
+46526 milisegundos.
+99,17% de fragmentação do índice.
+68,40% de ocupação das páginas.
 ```
 
 ### c)
 
 ```
-... Write here your answer ...
+Fillfactor 65: 45790 milisegundos.
+Fillfactor 80: 47054 milisegundos.
+Fillfactor 90: 46060 milisegundos.
+
+Não se encontrou nenhuma tendência nos dados, uma vez que as diferenças existentes são pouco significativas e dependem das condições de teste.
 ```
 
 ### d)
 
 ```
-... Write here your answer ...
+40046 milisegundos.
 ```
 
 ### e)
 
 ```
-... Write here your answer ...
+95393 milisegundos.
+Conclui-se que o aumento do número de índices influencia negativamente o tempo de execução das queries. Assim, é importante apenas criar índices para os autributos que sejam realmente importantes de indexar.
 ```
 
 ## ​8.3.
